@@ -1,6 +1,6 @@
 .cancel {
     text-decoration: none;
-    color: grey;
+    color: hsl(224, 23%, 55%);
     display: block;
     margin-top: 1.8rem;
     margin-left: 2rem;
@@ -10,6 +10,9 @@
 .proceed {
     background-color: $buttonColor;
     color: white;
+    button:hover {
+        background-color: hsl(223, 47%, 23%);
+    }
     padding: 0.8rem;
     padding-left: 3rem;
     padding-right: 3rem;

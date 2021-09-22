@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 .container,
 #summary {
   background-color: white;
@@ -5,7 +6,11 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: #e0e8ff;
+}
+
+body body p {
+  font-size: 16px;
 }
 
 .attribution {
@@ -35,12 +40,12 @@ body {
 
 .plan-title {
   position: relative;
-  right: 1rem;
+  right: 4rem;
 }
 
 .price-text {
   position: relative;
-  right: 1rem;
+  right: 4rem;
   bottom: 1.2rem;
 }
 
@@ -50,13 +55,12 @@ button:hover {
 }
 
 .change-plan {
-  text-decoration: none;
-  color: rebeccapurple;
+  color: #71098b;
 }
 
 .cancel {
   text-decoration: none;
-  color: grey;
+  color: #7280a7;
   display: block;
   margin-top: 1.8rem;
   margin-left: 2rem;
@@ -64,7 +68,7 @@ button:hover {
 }
 
 .proceed {
-  background-color: indigo;
+  background-color: #3829e0;
   color: white;
   padding: 0.8rem;
   padding-left: 3rem;
@@ -75,6 +79,10 @@ button:hover {
   border-radius: 10px;
 }
 
+.proceed button:hover {
+  background-color: #1f2f56;
+}
+
 .title-pic {
   width: 100%;
   height: auto;
@@ -83,7 +91,7 @@ button:hover {
 
 .music-icon {
   position: relative;
-  right: 5.2rem;
+  right: 8.8rem;
   top: 4rem;
 }
 
