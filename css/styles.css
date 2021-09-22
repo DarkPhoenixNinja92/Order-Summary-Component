@@ -21,12 +21,25 @@ body {
   display: block;
   width: 85%;
   margin-left: 1.6rem;
+  margin-top: 0.45rem;
   height: auto;
   text-align: center;
 }
 
 .plan {
+  margin: 1.5rem;
   background-color: darkgray;
+}
+
+.plan-title {
+  position: relative;
+  right: 1.5rem;
+}
+
+.price-text {
+  position: relative;
+  right: 1.5rem;
+  bottom: 1.2rem;
 }
 
 .change-plan {
@@ -57,5 +70,17 @@ body {
 .title-pic {
   width: 100%;
   height: auto;
+}
+
+.music-icon {
+  position: relative;
+  right: 6rem;
+  top: 4rem;
+}
+
+.change-plan {
+  position: relative;
+  left: 5.5rem;
+  bottom: 4rem;
 }
 /*# sourceMappingURL=styles.css.map */

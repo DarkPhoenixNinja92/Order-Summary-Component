@@ -21,10 +21,23 @@ body {
     display: block;
     width: 85%;
     margin-left: 1.6rem;
+    margin-top: 0.45rem;
     height: auto;
     text-align: center;
 }
 
 .plan {
+    margin: 1.5rem;
     background-color: darkgray;
+}
+
+.plan-title {
+    position: relative;
+    right: 1.5rem;
+}
+
+.price-text {
+    position: relative;
+    right: 1.5rem;
+    bottom: 1.2rem;
 }
