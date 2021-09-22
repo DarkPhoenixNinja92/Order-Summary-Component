@@ -24,22 +24,29 @@ body {
   margin-top: 0.45rem;
   height: auto;
   text-align: center;
+  border-radius: 25px;
 }
 
 .plan {
-  margin: 1.5rem;
+  margin: 1rem;
   background-color: darkgray;
+  border-radius: 10px;
 }
 
 .plan-title {
   position: relative;
-  right: 1.5rem;
+  right: 1rem;
 }
 
 .price-text {
   position: relative;
-  right: 1.5rem;
+  right: 1rem;
   bottom: 1.2rem;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
 }
 
 .change-plan {
@@ -60,27 +67,46 @@ body {
   background-color: indigo;
   color: white;
   padding: 0.8rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   text-align: center;
-  margin-left: 2.3rem;
+  margin-left: 0.7rem;
   margin-top: 1rem;
+  border-radius: 10px;
 }
 
 .title-pic {
   width: 100%;
   height: auto;
+  border-radius: 25px 25px 0 0;
 }
 
 .music-icon {
   position: relative;
-  right: 6rem;
+  right: 5.2rem;
   top: 4rem;
 }
 
 .change-plan {
   position: relative;
-  left: 5.5rem;
+  left: 5rem;
   bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    position: relative;
+    width: 40%;
+    height: auto;
+    left: 17rem;
+  }
+  body {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .proceed {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
