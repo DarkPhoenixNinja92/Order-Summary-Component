@@ -18,7 +18,9 @@ body {
 }
 
 .container {
+  display: block;
   width: 85%;
+  margin-left: 1.6rem;
   height: auto;
   text-align: center;
 }
@@ -35,6 +37,10 @@ body {
 .cancel {
   text-decoration: none;
   color: grey;
+  display: block;
+  margin-top: 1.8rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 .proceed {
@@ -43,6 +49,9 @@ body {
   padding: 0.8rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  text-align: center;
+  margin-left: 2.3rem;
+  margin-top: 1rem;
 }
 
 .title-pic {
