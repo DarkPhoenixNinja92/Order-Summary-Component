@@ -1,0 +1,12 @@
+.cancel {
+    text-decoration: none;
+    color: grey;
+}
+
+.proceed {
+    background-color: $buttonColor;
+    color: white;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
